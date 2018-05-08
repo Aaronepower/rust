@@ -15,7 +15,7 @@ Language
 - [128-bit integers in the form of `u128` and `i128` are now stable.][49101]
 - [`main` can now return `Result<(), E: Debug>`][49162] in addition to `()`.
 - [A lot of operations are now available in a const context.][46882] E.g. You
-  can now index into constant arrays, reference and deference into constants,
+  can now index into constant arrays, reference and dereference into constants,
   and use Tuple struct constructors.
 - [Fixed entry slice patterns are now stable.][48516] e.g.
   ```rust
