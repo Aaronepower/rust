@@ -68,6 +68,13 @@ Misc
 - [`rustc` will now warn about some incorrect uses of
   `mem::{uninitialized, zeroed}` that are known to cause undefined behaviour.][63346]
 
+Compatibility Notes
+-------------------
+- Unfortunately the [`x86_64-unknown-uefi` platform can not be built][62785]
+  with rustc 1.39.0.
+- The [`armv7-unknown-linux-gnueabihf` platform is also known to have
+  issues][62896] for certain crates such as libc.
+
 [60260]: https://github.com/rust-lang/rust/pull/60260/
 [61457]: https://github.com/rust-lang/rust/pull/61457/
 [61491]: https://github.com/rust-lang/rust/pull/61491/
