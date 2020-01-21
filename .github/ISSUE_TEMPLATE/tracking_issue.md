@@ -10,6 +10,11 @@ feature from implementation to stabilisation. Make sure to include the relevant
 RFC for the feature if it has one. Otherwise provide a short summary of the
 feature and link any relevant PRs or issues, and remove any sections that are
 not relevant to the feature.
+
+Remember to add team labels to the tracking issue.
+For a language team feature, this would e.g., be `T-lang`.
+Such a feature should also be labeled with e.g., `F-my_feature`.
+This label is used to associate issues (e.g., bugs and design questions) to the feature.
 -->
 
 This is a tracking issue for the RFC "XXX" (rust-lang/rfcs#NNN).
