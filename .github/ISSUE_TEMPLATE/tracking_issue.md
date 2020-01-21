@@ -12,24 +12,28 @@ feature and link any relevant PRs or issues, and remove any sections that are
 not relevant to the feature.
 -->
 
-Introduced in #PR_NUMBER.
+This is a tracking issue for the RFC "XXX" (rust-lang/rfcs#NNN).
 
-## Steps
+### Steps
 <!--
 Include each step required to complete the feature. Typically this is a PR
 implementing a feature, followed by a PR that stabilises the feature. However
 for larger features an implementation could be broken up into multiple PRs.
 -->
 
-- [ ] Implementation (#PR_NUMBER)
-- [ ] Stabilisation (#PR_NUMBER)
+- [ ] Implement the RFC (cc @rust-lang/XXX -- can anyone write up mentoring
+      instructions?)
+- [ ] Adjust documentation ([see instructions on rustc-guide][doc-guide])
+- [ ] Stabilization PR ([see instructions on rustc-guide][stabilization-guide])
 
-## Open Questions
+[stabilization-guide]: https://rust-lang.github.io/rustc-guide/stabilization_guide.html#stabilization-pr
+[doc-guide]: https://rust-lang.github.io/rustc-guide/stabilization_guide.html#documentation-prs
+
+### Unresolved Questions
 <!--
 Include any open questions that need to be answered before the feature can be
 stabilised.
 -->
 
-- First question
-- Second question
-
+XXX --- list all the "unresolved questions" found in the RFC to ensure they are
+not forgotten

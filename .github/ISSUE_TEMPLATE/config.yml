@@ -3,6 +3,3 @@ contact_links:
   - name: Rust Programming Language Forum
     url: https://users.rust-lang.org
     about: Please ask and answer questions about Rust here.
-  - name: Security Vulnerability
-    url: https://www.rust-lang.org/policies/security
-    about: Please report security vulnerabilities here.
