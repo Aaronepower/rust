@@ -2,8 +2,11 @@
 name: Tracking Issue
 about: A tracking issue for a feature in Rust.
 title: Tracking Issue for XXX
-labels: C-tracking-issue
+labels: ''
+assignees: ''
+
 ---
+
 <!--
 Thank you for creating a tracking issue! 📜 Tracking issues are for tracking a
 feature from implementation to stabilisation. Make sure to include the relevant
