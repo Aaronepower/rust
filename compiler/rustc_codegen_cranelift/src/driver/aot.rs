@@ -112,7 +112,7 @@ fn module_codegen(
         tcx,
         backend_config.clone(),
         module.isa(),
-        tcx.sess.opts.debuginfo != DebugInfo::None,
+        cfg!(not(windows)) && tcx.sess.opts.debuginfo != DebugInfo::None,
     );
     super::predefine_mono_items(tcx, &mut module, &mono_items);
     for (mono_item, _) in mono_items {
